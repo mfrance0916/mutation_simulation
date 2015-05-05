@@ -1,7 +1,12 @@
 #!/usr/bin/python
 
+import itertools
+import random
+import copy
+
+
 class population:
-	def __init__(self,length,width,height,n_iters):
+	def __init__(self,length,height,n_iters):
 		self.width = width
 		self.length = length
 		self.height = height
